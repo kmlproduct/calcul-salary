@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    margin: auto 100px;
+    width: 1000px;
+    padding: 20px;
+    background-color: rgb(235, 175, 175);
+}
+.container .salary {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.container .inpt {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(48, 175, 31);
+}
+.container .screen {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(192, 81, 81);
+}
+.container input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: red;
+}
+.container button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 91, 209);
+    margin-left: 20px;
+
+}
+.container .screen h2{
+    display: flex;
+    text-align: center;
+    color: rgb(240, 20, 38);
+}
+.container .storage {
+    font-size: 25px;
+    color: rgb(68, 63, 63);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(78, 77, 77);
+}
+.container .screen .cumul{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container .screen .cumul span {
+    color: beige;
+}
