@@ -1,9 +1,14 @@
 .container{
+    margin: 50px auto;
     display: flex;
-    margin: auto 100px;
+    flex-flow: column;
+    align-items: center;
     width: 1000px;
     padding: 20px;
     background-color: rgb(235, 175, 175);
+}
+.container .inpt h2 {
+    color: rgb(19, 204, 44);
 }
 .container .salary {
     font-size: 25px;
@@ -14,13 +19,13 @@
     margin: 10px;
     padding: 10px;
     width: 50%;
-    background-color: rgb(48, 175, 31);
+    background-color: rgb(163, 89, 206);
 }
 .container .screen {
     margin: 10px;
     padding: 10px;
     width: 50%;
-    background-color: rgb(192, 81, 81);
+    background-color: rgb(235, 68, 207);
 }
 .container input {
     height: 30px;
@@ -33,29 +38,41 @@
 }
 .container button {
     height: 40px;
+    background-color: rgb(236, 45, 189);
     width: 100px;
     border-radius: 5px;
     border: 2px solid rgb(12, 91, 209);
     margin-left: 20px;
 
 }
+.container button:hover{
+    background-color: rgb(111, 28, 128);
+}
 .container .screen h2{
     display: flex;
     text-align: center;
-    color: rgb(240, 20, 38);
+    color: rgb(241, 234, 234);
 }
 .container .storage {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
     font-size: 25px;
     color: rgb(68, 63, 63);
     font-weight: bold;
     border-bottom: 1px solid rgb(78, 77, 77);
 }
 .container .screen .cumul{
+    margin-top: 20px;
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 .container .screen .cumul span {
+    display: flex;
     color: beige;
+    margin-left: 100px;
+    justify-content: flex-end;
 }
